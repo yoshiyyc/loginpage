@@ -139,6 +139,7 @@ async function setLocale(newLocale) {
 // Retrieve translations JSON object for the given locale over the network
 async function fetchTranslationsFor(newLocale) {
   const response = await fetch(`https://yoshiyyc.github.io/loginpage/lang/${newLocale.toLowerCase()}.json`);
+  console.log(`https://yoshiyyc.github.io/loginpage/lang/${newLocale.toLowerCase()}.json`);
   return await response.text();
 }
 
