@@ -1,0 +1,20 @@
+{
+  "title": "登入",
+  "colorMode": "深淺模式",
+  "lightMode": "淺色",
+  "darkMode": "深色",
+  "autoMode": "自動",
+  "account": "手機號碼或電子郵件地址",
+  "password": "密碼",
+  "loginBtn": "登入",
+  "forgotPwd": "忘記帳號？",
+  "or": "或",
+  "registerBtn": "建立新帳號",
+  "about": "關於",
+  "terms": "使用說明",
+  "more": "更多",
+  "loginSuccess": "登入成功！",
+  "confirm": "確認",
+  "loginFail": "帳號或密碼輸入錯誤",
+  "reenter": "重新輸入"
+}

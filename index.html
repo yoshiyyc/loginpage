@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./stylesheets/css/all.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center mt-3 mb-5 h1 text-primary">XYZ Company</h2>
+      <div class="row flex-column flex-md-row">
+        <div
+          class="col d-flex flex-column justify-content-center align-items-center mb-4 mb-md-0"
+        >
+          <div
+            id="clock"
+            class="col-6 py-4 text-center fs-5 border rounded shadow-sm"
+          >
+            <!-- Time -->
+          </div>
+          <div class="dropdown my-3">
+            <button
+              class="btn dropdown-toggle border shadow-sm"
+              id="bd-theme"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-i18n-key="colorMode"
+            >
+              深淺模式
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="bd-theme-text">
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="light"
+                  aria-pressed="false"
+                  data-i18n-key="lightMode"
+                >
+                  淺色
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="dark"
+                  aria-pressed="false"
+                  data-i18n-key="darkMode"
+                >
+                  深色
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center active"
+                  data-bs-theme-value="auto"
+                  aria-pressed="true"
+                  data-i18n-key="autoMode"
+                >
+                  自動
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form class="col mx-auto p-4 border rounded shadow-sm" action="#">
+          <div>
+            <h1 class="text-center h3 mb-4" data-i18n-key="title">登入</h1>
+            <input
+              type="text"
+              id="account"
+              class="form-control mb-3"
+              placeholder="手機號碼或電子郵件地址"
+              data-i18n-key="account"
+            />
+            <input
+              type="password"
+              class="form-control mb-3"
+              id="password"
+              placeholder="密碼"
+              data-i18n-key="password"
+            />
+            <button
+              id="loginBtn"
+              type="submit"
+              class="btn btn-primary btn-lg w-100 mb-3 fw-bold"
+              data-i18n-key="loginBtn"
+            >
+              登入
+            </button>
+            <a
+              class="form-text link-primary d-block text-center"
+              href="#"
+              data-i18n-key="forgotPwd"
+              >忘記帳號？</a
+            >
+          </div>
+          <div class="my-4">
+            <p
+              class="divider-text position-relative mx-auto my-0 px-2 text-center form-text overflow-hidden"
+              data-i18n-key="or"
+            >
+              或
+            </p>
+          </div>
+          <div>
+            <a
+              class="btn btn-secondary py-2 w-100 mb-3 fw-bold"
+              href="#"
+              data-i18n-key="registerBtn"
+            >
+              建立新帳號
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="mt-5 bg-secondary">
+      <div class="container py-4">
+        <ul
+          id="languageRow"
+          class="row row-cols-auto list-unstyled d-flex align-items-center mb-2"
+        >
+          <li class="col">
+            <a class="link-light me-3" href="#" data-language="zh-TW">
+              中文(台灣)
+            </a>
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-language="en-US"
+              >English (US)</a
+            >
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-language="id-ID"
+              >Bahasa Indonesia</a
+            >
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-language="ja-jp">日本語</a>
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-language="es-la"
+              >Español</a
+            >
+          </li>
+          <li class="col">
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-light px-1 py-0"
+            >
+              <i class="bi bi-plus-lg"></i>
+            </button>
+          </li>
+        </ul>
+        <ul
+          class="row row-cols-auto d-flex align-items-center list-unstyled mb-2"
+        >
+          <li class="col">
+            <a class="link-light me-3" href="#" data-i18n-key="about">關於</a>
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-i18n-key="terms"
+              >使用說明</a
+            >
+          </li>
+          <li class="col">
+            <a class="link-light me-3" href="#" data-i18n-key="more">更多</a>
+          </li>
+        </ul>
+        <p class="my-0 text-light">XYZ © 2023</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

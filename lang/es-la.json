@@ -1,0 +1,20 @@
+{
+  "title": "Iniciar sesión",
+  "colorMode": "Modo de color",
+  "lightMode": "Claro",
+  "darkMode": "Oscuro",
+  "autoMode": "Automático",
+  "account": "Correo electrónico o número de teléfono",
+  "password": "Contraseña",
+  "loginBtn": "Iniciar sesión",
+  "forgotPwd": "¿Olvidaste tu cuenta?",
+  "or": "o",
+  "registerBtn": "Crear nueva cuenta",
+  "about": "Información",
+  "terms": "Condiciones",
+  "more": "Otros",
+  "loginSuccess": "¡Inicio de sesión exitoso!",
+  "confirm": "Confirmar",
+  "loginFail": "Nombre de usuario o contraseña incorrectos",
+  "reenter": "Volver a ingresar"
+  }

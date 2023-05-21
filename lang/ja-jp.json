@@ -1,0 +1,20 @@
+{
+  "title": "ログイン",
+  "colorMode": "カラーモード",
+  "lightMode": "ライト",
+  "darkMode": "ダーク",
+  "autoMode": "自動",
+  "account": "メールアドレスまたは電話番号",
+  "password": "パスワード",
+  "loginBtn": "ログイン",
+  "forgotPwd": "アカウントを忘れた場合",
+  "or": "または",
+  "registerBtn": "新しいアカウントを作成",
+  "about": "私たちについて",
+  "terms": "規約",
+  "more": "その他",
+  "loginSuccess": "ログインに成功しました！",
+  "confirm": "確認",
+  "loginFail": "ユーザー名またはパスワードが間違っています",
+  "reenter": "再入力"
+  }

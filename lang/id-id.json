@@ -1,0 +1,20 @@
+{
+  "title": "Login",
+  "colorMode": "Mode Warna",
+  "lightMode": "Terang",
+  "darkMode": "Gelap",
+  "autoMode": "Otomatis",
+  "account": "Email atau Nombor Telepon",
+  "password": "Kata Sandi",
+  "loginBtn": "Masuk",
+  "forgotPwd": "Lupa akun?",
+  "or": "atau",
+  "registerBtn": "Tentang",
+  "about": "About",
+  "terms": "Bantuan",
+  "more": "Lebih",
+  "loginSuccess": "Login Berhasil!",
+  "confirm": "Konfirmasi",
+  "loginFail": "Username atau password salah",
+  "reenter": "Masukkan kembali"
+}

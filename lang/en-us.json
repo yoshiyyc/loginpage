@@ -1,0 +1,20 @@
+{
+  "title": "Log In",
+  "colorMode": "Color Mode",
+  "lightMode": "Light",
+  "darkMode": "Dark",
+  "autoMode": "Auto",
+  "account": "Email or phone number",
+  "password": "Password",
+  "loginBtn": "Log In",
+  "forgotPwd": "Forgot account?",
+  "or": "Or",
+  "registerBtn": "Create new account",
+  "about": "About",
+  "terms": "Terms",
+  "more": "More",
+  "loginSuccess": "Login Successful!",
+  "confirm": "Confirm",
+  "loginFail": "Incorrect username or password",
+  "reenter": "Re-enter"
+}
