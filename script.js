@@ -139,7 +139,7 @@ async function setLocale(newLocale) {
 // Retrieve translations JSON object for the given locale over the network
 async function fetchTranslationsFor(newLocale) {
   const response = await fetch(`/lang/${newLocale}.json`);
-  return await response.json();
+  return await response.text();
 }
 
 // Replace the inner text of each element that has a data-i18n-key attribute with the translation corresponding to its data-i18n-key
